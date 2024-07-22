@@ -14,6 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
+<h1 align="center"> <p> Everything is the same except I add more weird methods to whatever blunder this is 💀</p></h1>
+
 <h1 align="center"> <p>🤗 PEFT</p></h1>
 <h3 align="center">
     <p>State-of-the-art Parameter-Efficient Fine-Tuning (PEFT) methods</p>
