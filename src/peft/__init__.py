@@ -84,6 +84,8 @@ from .tuners import (
     VeraModel,
     FourierFTConfig,
     FourierFTModel,
+    VBLoRAConfig,
+    VBLoRAModel,
     XLoraConfig,
     XLoraModel,
 )
