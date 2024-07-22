@@ -20,6 +20,7 @@ from typing import TYPE_CHECKING, Any, Optional
 import torch
 
 from peft.tuners.xlora.model import XLoraModel
+from peft.tuners.vblora.model import VBLoRAConfig, VBLoRAModel
 
 from .config import PeftConfig
 from .mixed_model import PeftMixedModel
@@ -64,7 +65,7 @@ from .tuners import (
     VeraModel,
     XLoraConfig,
     VBLoRAConfig,
-    VBLoRAModel
+    VBLoRAModel,
 )
 from .tuners.tuners_utils import BaseTuner as _BaseTuner
 from .utils import _prepare_prompt_learning_config
@@ -102,6 +103,7 @@ PEFT_TYPE_TO_CONFIG_MAPPING: dict[str, type[PeftConfig]] = {
     "FOURIERFT": FourierFTConfig,
     "XLORA": XLoraConfig,
     "HRA": HRAConfig,
+    "VBLoRA": VBLoRAConfig,
 }
 
 PEFT_TYPE_TO_TUNER_MAPPING: dict[str, type[_BaseTuner]] = {
@@ -118,6 +120,7 @@ PEFT_TYPE_TO_TUNER_MAPPING: dict[str, type[_BaseTuner]] = {
     "FOURIERFT": FourierFTModel,
     "XLORA": XLoraModel,
     "HRA": HRAModel,
+    "VBLoRA": VBLoRAModel,
 }
 
 
