@@ -35,4 +35,4 @@ from .ln_tuning import LNTuningConfig, LNTuningModel
 from .vera import VeraConfig, VeraModel
 from .fourierft import FourierFTConfig, FourierFTModel
 from .xlora import XLoraConfig, XLoraModel
-from .vblora import VBLoRAConfig, VBLoRAModel
+from .hra import HRAConfig, HRAModel
